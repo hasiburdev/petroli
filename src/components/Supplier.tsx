@@ -14,7 +14,7 @@ function Supplier(): JSX.Element {
           using Lorem Ipsum is that it has a more-or-less normal distribution.
         </p>
       </div>
-      <div className="flex justify-between gap-4">
+      <div className="max-w-[1440px] mx-auto flex justify-between gap-4">
         <picture>
           <img src={supplier1} alt="Supplier" loading="lazy" />
         </picture>

@@ -15,9 +15,6 @@ module.exports = {
       maxWidth: {
         container: '1144px',
       },
-      backgroundImage: {
-        banner: 'url("./assets/images/banner.png")',
-      },
     },
   },
   plugins: [],
