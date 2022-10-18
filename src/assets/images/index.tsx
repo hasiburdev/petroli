@@ -8,6 +8,10 @@ import supplier2 from './supplier-2.png';
 import supplier3 from './supplier-3.png';
 import supplier4 from './supplier-4.png';
 import company from './company.png';
+import brandLogo1 from './brand-logo-1.png';
+import brandLogo2 from './brand-logo-2.png';
+import brandLogo3 from './brand-logo-3.png';
+import brandLogo4 from './brand-logo-4.png';
 
 export {
   logo,
@@ -20,4 +24,8 @@ export {
   supplier2,
   supplier3,
   supplier4,
+  brandLogo1,
+  brandLogo2,
+  brandLogo3,
+  brandLogo4,
 };

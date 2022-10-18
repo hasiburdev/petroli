@@ -1,4 +1,5 @@
 import Banner from '../components/Banner';
+import Brands from '../components/Brands';
 import Company from '../components/Company';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
@@ -14,6 +15,7 @@ function Home(): JSX.Element {
       <Supplier />
       <Service />
       <Company />
+      <Brands />
     </>
   );
 }
