@@ -1,8 +1,5 @@
 import React from 'react';
-import supplier1 from '../assets/images/supplier-1.png';
-import supplier2 from '../assets/images/supplier-2.png';
-import supplier3 from '../assets/images/supplier-3.png';
-import supplier4 from '../assets/images/supplier-4.png';
+import { supplier1, supplier2, supplier3, supplier4 } from '../assets/images';
 
 function Supplier(): JSX.Element {
   return (
