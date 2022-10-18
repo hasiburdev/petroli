@@ -34,14 +34,12 @@ function Navbar(): JSX.Element {
               <a href="#home">Blog</a>
             </li>
           </ul>
-          <div className="border-2 border-solid border-white px-8 py-3">
-            <a
-              href="#contact"
-              className="font-pop font-semibold text-base uppercase text-white  inline-block "
-            >
-              Contact
-            </a>
-          </div>
+          <a
+            href="#contact"
+            className="border-2 border-solid border-white px-8 py-3 font-pop font-semibold text-base uppercase text-white  inline-block "
+          >
+            Contact
+          </a>
         </div>
       </div>
     </nav>
