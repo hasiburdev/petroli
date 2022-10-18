@@ -12,6 +12,10 @@ import brandLogo1 from './brand-logo-1.png';
 import brandLogo2 from './brand-logo-2.png';
 import brandLogo3 from './brand-logo-3.png';
 import brandLogo4 from './brand-logo-4.png';
+import blog1 from './blog-1.png';
+import blog2 from './blog-2.png';
+import blog3 from './blog-3.png';
+import map from './map.png';
 
 export {
   logo,
@@ -28,4 +32,8 @@ export {
   brandLogo2,
   brandLogo3,
   brandLogo4,
+  blog1,
+  blog2,
+  blog3,
+  map,
 };
