@@ -12,6 +12,8 @@ module.exports = {
         yellowborder: '#FFB800',
         overlay: 'rgba(0,0,0,.6)',
         sectionback: '#F0F0F0',
+        footerbg: '#1F1F1F',
+        copyrightbg: '#282828',
       },
       maxWidth: {
         container: '1144px',

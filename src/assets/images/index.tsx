@@ -16,6 +16,9 @@ import blog1 from './blog-1.png';
 import blog2 from './blog-2.png';
 import blog3 from './blog-3.png';
 import map from './map.png';
+import certificate1 from './certificate-1.png';
+import certificate2 from './certificate-2.png';
+import logoFooter from './logo-footer.png';
 
 export {
   logo,
@@ -36,4 +39,7 @@ export {
   blog2,
   blog3,
   map,
+  certificate1,
+  certificate2,
+  logoFooter,
 };
