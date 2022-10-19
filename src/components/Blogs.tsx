@@ -59,7 +59,7 @@ function Blogs(): JSX.Element {
         </div>
       </div>
       <div className="max-w-container mx-auto">
-        <p className="font-pop font-bold mt-7 flex items-center gap-x-1 justify-end">
+        <p className="font-pop font-bold mt-7 flex items-center gap-x-1 justify-end cursor-pointer">
           MORE FROM THE BLOG <FaAngleRight />
         </p>
       </div>

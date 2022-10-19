@@ -19,19 +19,29 @@ function Navbar(): JSX.Element {
         <div className="flex gap-x-16 items-center">
           <ul className="flex gap-x-12 font-pop font-semibold text-base text-white">
             <li>
-              <a href="#home">Home</a>
+              <a href="#home" className="cursor-pointer hover:text-gray-200">
+                Home
+              </a>
             </li>
             <li>
-              <a href="#home">About</a>
+              <a href="#home" className="cursor-pointer hover:text-gray-200">
+                About
+              </a>
             </li>
             <li>
-              <a href="#home">Service</a>
+              <a href="#home" className="cursor-pointer hover:text-gray-200">
+                Service
+              </a>
             </li>
             <li>
-              <a href="#home">Gallery</a>
+              <a href="#home" className="cursor-pointer hover:text-gray-200">
+                Gallery
+              </a>
             </li>
             <li>
-              <a href="#home">Blog</a>
+              <a href="#home" className="cursor-pointer hover:text-gray-200">
+                Blog
+              </a>
             </li>
           </ul>
           <a

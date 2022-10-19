@@ -20,10 +20,10 @@ function Header(): JSX.Element {
           </p>
         </div>
         <div className="text-white flex gap-x-5 font-base">
-          <FaFacebookF />
-          <FaTwitter />
-          <FaLinkedinIn />
-          <FaInstagram />
+          <FaFacebookF className="cursor-pointer hover:text-gray-300" />
+          <FaTwitter className="cursor-pointer hover:text-gray-300" />
+          <FaLinkedinIn className="cursor-pointer hover:text-gray-300" />
+          <FaInstagram className="cursor-pointer hover:text-gray-300" />
         </div>
       </div>
     </header>

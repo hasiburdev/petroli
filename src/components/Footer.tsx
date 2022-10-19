@@ -30,32 +30,48 @@ function Footer(): JSX.Element {
             </p>
           </div>
           <div className="text-primary flex gap-x-5 font-base">
-            <FaFacebook />
-            <FaTwitter />
-            <FaLinkedinIn />
-            <FaInstagram />
+            <FaFacebook className="cursor-pointer hover:text-red-500" />
+            <FaTwitter className="cursor-pointer hover:text-red-500" />
+            <FaLinkedinIn className="cursor-pointer hover:text-red-500" />
+            <FaInstagram className="cursor-pointer hover:text-red-500" />
           </div>
         </div>
         <div className="text-white basis-1/5">
           <h4 className="font-pop font-bold text-base leading-[80px]">
             Company
           </h4>
-          <ul className="font-pop font-normal text-sm">
-            <li className="leading-7">Home</li>
-            <li className="leading-7">About</li>
-            <li className="leading-7">Services</li>
-            <li className="leading-7">Gallery</li>
+          <ul className="font-pop font-normal text-sm ">
+            <li className="leading-7 cursor-pointer hover:text-gray-300">
+              Home
+            </li>
+            <li className="leading-7 cursor-pointer hover:text-gray-300">
+              About
+            </li>
+            <li className="leading-7 cursor-pointer hover:text-gray-300">
+              Services
+            </li>
+            <li className="leading-7 cursor-pointer hover:text-gray-300">
+              Gallery
+            </li>
           </ul>
         </div>
         <div className="text-white basis-1/5">
           <h4 className="font-pop font-bold text-base leading-[80px]">
             Others
           </h4>
-          <ul className="font-pop font-normal text-sm">
-            <li className="leading-7">Blog</li>
-            <li className="leading-7">Contact</li>
-            <li className="leading-7">Terms and Services</li>
-            <li className="leading-7">Privacy Policy</li>
+          <ul className="font-pop font-normal text-sm ">
+            <li className="leading-7 cursor-pointer hover:text-gray-300">
+              Blog
+            </li>
+            <li className="leading-7 cursor-pointer hover:text-gray-300">
+              Contact
+            </li>
+            <li className="leading-7 cursor-pointer hover:text-gray-300">
+              Terms and Services
+            </li>
+            <li className="leading-7 cursor-pointer hover:text-gray-300">
+              Privacy Policy
+            </li>
           </ul>
         </div>
         <div className="text-white basis-1/5">
@@ -64,10 +80,20 @@ function Footer(): JSX.Element {
           </h4>
           <ul className="font-pop font-normal text-sm flex gap-x-2">
             <picture>
-              <img src={certificate1} alt="Certificate" loading="lazy" />
+              <img
+                src={certificate1}
+                alt="Certificate"
+                loading="lazy"
+                className="cursor-pointer"
+              />
             </picture>
             <picture>
-              <img src={certificate2} alt="Certificate" loading="lazy" />
+              <img
+                src={certificate2}
+                alt="Certificate"
+                loading="lazy"
+                className="cursor-pointer"
+              />
             </picture>
           </ul>
         </div>
